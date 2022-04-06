@@ -1,0 +1,99 @@
+
+// Import Fontsource Font
+@import "~@fontsource/titillium-web/200-italic.css";
+@import "~@fontsource/titillium-web/200.css";
+@import "~@fontsource/titillium-web/300-italic.css";
+@import "~@fontsource/titillium-web/300.css";
+@import "~@fontsource/titillium-web/400-italic.css";
+@import "~@fontsource/titillium-web/400.css";
+@import "~@fontsource/titillium-web/600-italic.css";
+@import "~@fontsource/titillium-web/600.css";
+@import "~@fontsource/titillium-web/700-italic.css";
+@import "~@fontsource/titillium-web/700.css";
+@import "~@fontsource/titillium-web/900.css";
+
+body {
+    font-family: "Titillium Web", sans-serif;
+    
+}
+
+
+img{
+    max-width:100%;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+header a {
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+}
+footer a:hover{
+    color:$page_secondary_color;
+   
+}
+
+
+
+.container-ms {
+    width: 90%;
+    margin: auto;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+}
+
+.page_titles{
+    text-transform: uppercase;
+    color:$page_other_color;
+    padding-top:50px;
+    @media (max-width:1090px) {
+        padding-top: 190px;
+    }
+    @media (max-width:1030px) {
+        padding-top: 270px;
+    }
+}
+
+
+// box-shadow: 4px 4px 25px $page_tertiary_color;
+// border-radius: 20px;
+// background-color: lighten( $page_secondary_color, 10%);
+//     h5{
+//         color:$page_primary_color;
+//         text-transform: capitalize;
+//     }
+//     p{
+//         color: $page_other_color;
+//     }
+//     .decoration{
+//         width: 100%;
+//         margin: 50px 0;
+//         height: 2px;
+//         background-color: black;
+//     }
+// }
+// .restaurant_cards:hover{
+//     box-shadow: 10px 10px 15px $page_tertiary_color;
+//     transform: scale(1.1);
+// }
+
+// .restaurant_btn {
+//     margin: 50px 2px 0;
+//     padding: 5px 15px;
+//     background-color: lighten(#311706, 40%);
+//     color: #7c2a02;
+//     transition: 0.2s;
+//     border-radius: 20px;
+//     box-shadow: 1px 1px 10px;
+    
+// }
+
+
